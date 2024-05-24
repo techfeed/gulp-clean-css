@@ -36,7 +36,7 @@ describe('gulp-clean-css: base functionality', () => {
         i += 1;
       })
       .once('end', () => {
-        i.should.equal(3);
+        i.should.equal(4);
         done();
       });
   });

@@ -1,0 +1,10 @@
+.grid {
+  display: grid;
+  container-type: inline-size;
+}
+
+@container (600px <= width) {
+  .grid-item {
+    grid-column: span 2;
+  }
+}
